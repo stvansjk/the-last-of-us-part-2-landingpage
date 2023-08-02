@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Last Of Us Part 2 | Landing Page</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo"
+        ><img src="assets/The-Last-Of-Us-Logo-PNG-Photos.png"
+      /></a>
+      <ul class="navigation">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Overviem</a></li>
+        <li><a href="#">Accessibility</a></li>
+        <li><a href="#">Media Gallery</a></li>
+        <li><a href="#">Buy Now</a></li>
+      </ul>
+      <div class="search">
+        <input type="text" placeholder="Search" />
+        <i class="fa fa-search" aria-hidden="true"></i>
+      </div>
+    </header>
+    <div class="banner">
+      <img
+        src="assets/the-last-of-us-part-2-ellie-uhdpaper.com-4K-28.jpg"
+        class="bg"
+      />
+      <div class="content">
+        <h4>
+          <span>2020</span>
+          <span><i>17+</i></span>
+          <span>25hours</span>
+          <span>Action</span>
+        </h4>
+        <p>
+          The Last of Us Part II is a 2020 action-adventure game developed by
+          Naughty Dog and published by Sony Interactive Entertainment for the
+          PlayStation 4. Set five years after The Last of Us (2013), the game
+          focuses on two playable characters in a post-apocalyptic United States
+          whose lives intertwine: Ellie, who sets out in revenge for a murder,
+          and Abby, a soldier who becomes involved in a conflict between her
+          militia and a religious cult.
+        </p>
+        <div class="buttons">
+          <a href="#"><i class="fa fa-play" aria-hidden="true"></i> Play</a>
+          <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> My List</a>
+        </div>
+      </div>
+      <a class="play" onclick="toggleVideo();"
+        ><img src="assets/play.png" />Watch Trailer</a
+      >
+    </div>
+
+    <div class="trailer">
+      <video
+        src="assets/y2mate.com - The Last of Us Part II  Official Story Trailer  PS4_1080p.mp4"
+        controls="true"
+      ></video>
+      <img src="assets/close.png" class="close" onclick="toggleVideo();" />
+    </div>
+    <script src="javascript.js"></script>
+  </body>
+</html>
