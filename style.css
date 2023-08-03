@@ -185,7 +185,7 @@ header .logo img {
   opacity: 1;
 }
 .trailer video {
-  max-width: 60%;
+  max-width: 70%;
   outline: none;
 }
 .close {
@@ -221,7 +221,7 @@ header .logo img {
     max-width: 40px;
   }
   .trailer video {
-    max-width: 60%;
+    max-width: 70%;
   }
 }
 @media (max-width: 600px)
