@@ -242,4 +242,7 @@ header .logo img {
     font-size: 1em;
     bottom: 30px;
   }
+  .trailer video {
+    max-width: 90%;
+  }
 }
